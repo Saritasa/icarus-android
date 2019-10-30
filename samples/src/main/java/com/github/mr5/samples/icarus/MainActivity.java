@@ -2,7 +2,7 @@ package com.github.mr5.samples.icarus;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,10 +25,9 @@ import com.github.mr5.icarus.popover.LinkPopoverImpl;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity{
     WebView webView;
 
     protected Icarus icarus;
