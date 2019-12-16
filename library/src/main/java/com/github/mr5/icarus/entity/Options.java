@@ -23,7 +23,7 @@ public class Options {
     /**
      * Tags that are allowed in Editor.
      */
-    private List<String> allowedTags = Arrays.asList("br", "span", "a", "img", "b", "strong", "i", "strike", "u", "font", "p", "ul", "ol", "li", "blockquote", "pre", "code", "h1", "h2", "h3", "h4", "hr");
+    private List<String> allowedTags = new ArrayList<>(Arrays.asList("br", "span", "a", "img", "b", "strong", "i", "em", "strike", "u", "font", "p", "ul", "ol", "li", "blockquote", "pre", "code", "h1", "h2", "h3", "h4", "hr"));
     private Map<String, List<String>> allowedAttributes = new HashMap<>();
 
     public String getPlaceholder() {
